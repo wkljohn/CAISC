@@ -1,4 +1,4 @@
-setwd("/data/YoungLab_Bioinfo/DENDROsimulation/infercnvsubclustersHMM3_4fold_addingchr59")
+#setwd("/data/YoungLab_Bioinfo/DENDROsimulation/infercnvsubclustersHMM3_4fold_addingchr59")
 rm(list=ls())
 library(infercnv)
 infercnv_obj = CreateInfercnvObject(raw_counts_matrix="expressionmatrix.txt",
